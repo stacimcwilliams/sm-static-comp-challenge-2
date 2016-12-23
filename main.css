@@ -1,0 +1,66 @@
+html,
+body{
+  height: 100vh;
+  font-family: 'Aref Ruqaa', serif;
+  background-color: grey;
+  color: white;
+}
+
+.header{
+  height:5%;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.header-text{
+ width:40%;
+ display: table-cell;
+ text-align: center;
+}
+
+.nav {
+  height: 10%;
+  width: 100;
+  display: inline;
+}
+
+.nav div{
+  height:90%%;
+  width:10%;
+  display: inline-block;
+}
+
+.nav div img{
+  width:50%;
+  margin: 1%;
+}
+
+.icon-section{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.icon-header-left{
+  height: 100%;
+  width:30%;
+  display: table-cell;
+}
+
+.icon-header-left img{
+  width: 10%;
+  display: table-cell;
+}
+
+.icon-header-right{
+  width:30%;
+  display: table-cell;
+}
+
+.icon-header-right img{
+  width: 10%;
+  display: table-cell;
+  float: right;
+}
