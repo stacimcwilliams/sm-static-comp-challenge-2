@@ -1,66 +1,215 @@
-html,
 body{
-  height: 100vh;
-  font-family: 'Aref Ruqaa', serif;
-  background-color: grey;
-  color: white;
+background: url("images/background-image.jpg") no-repeat;
+background-size: cover;
+height: 100vh;
 }
 
-.header{
-  height:5%;
+.header {
   width: 100%;
+  height: 5%;
   display: table;
   table-layout: fixed;
 }
 
-.header-text{
- width:40%;
- display: table-cell;
- text-align: center;
+.header .icon{
+  width: 20%;
 }
 
-.nav {
-  height: 10%;
-  width: 100;
-  display: inline;
+.icon {
+  -webkit-filter: invert(100%);
 }
 
-.nav div{
-  height:90%%;
-  width:10%;
-  display: inline-block;
-}
-
-.nav div img{
-  width:50%;
-  margin: 1%;
-}
-
-.icon-section{
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-}
-
-.icon-header-left{
-  height: 100%;
-  width:30%;
+.header-left {
+  width: 30%;
   display: table-cell;
+  float: left;
 }
 
-.icon-header-left img{
-  width: 10%;
-  display: table-cell;
-}
-
-.icon-header-right{
-  width:30%;
-  display: table-cell;
-}
-
-.icon-header-right img{
-  width: 10%;
+.header-right {
+  width: 30%;
   display: table-cell;
   float: right;
+}
+
+.header-right img {
+  float: right;
+  padding: 2%;
+}
+
+.header .header-title {
+    width: 40%;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 200%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.icon-bar {
+  width: 60%;
+  height: 5%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  padding-top: 1.5%;
+  table-layout: fixed;
+}
+
+.icon-bar div {
+  width: 10%;
+  display: table-cell;
+  text-align: center;
+}
+
+.icon-bar div .icon {
+  width: 30%;
+}
+
+.statistics {
+  width: 30%;
+  height: 5%;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 125%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.sponsor p {
+  font-family:'Aref Ruqaa', serif;
+  height: 5%;
+  width: 80%;
+  border: solid 1px grey;
+  background:black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: .1%;
+  margin-bottom: 2.5%;
+}
+
+
+.boxes {
+  width: 81%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 49%;
+  height: 49%;
+  margin: .5%;
+  background-color: #212530;
+  /*display: table-column;*/
+  display: block;
+}
+
+.headline {
+  height: 10%;
+  font-family: 'Aref Ruqaa', serif;
+  background-color: #CC5500;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #d3d3d3;
+  /*display: table-row;*/
+}
+
+.summary {
+  height: 60%;
+  width: 75%;
+  font-family: 'Aref Ruqaa', serif;
+  display: table;
+  table-layout: fixed;
+}
+
+.character-image-column {
+  width: 30%;
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.harry .character-image  {
+  background: url("images/hp-profile-pic.jpeg") no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100% 100%;
+  /*width: auto;*/
+  height: 80%;
+  border: 3px solid #d3d3d3;
+  margin-left: 5%;
+  /*vertical-align: middle;*/
+}
+
+.hermione .character-image{
+  background: url("images/hermione-pic.jpg") no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100% 100%;
+  /*width: auto;*/
+  height: 80%;
+  border: 3px solid #d3d3d3;
+  margin-left: 5%;
+}
+
+.voldemort .character-image{
+  background: url("images/voldemort-pic.jpg") no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100% 100%;
+  /*width: auto;*/
+  height: 80%;
+  border: 3px solid #d3d3d3;
+  margin-left: 5%;
+}
+
+.ron .character-image{
+  background: url("images/ron-pic.jpg") no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100% 100%;
+  /*width: auto;*/
+  height: 80%;
+  border: 3px solid #d3d3d3;
+  margin-left: 5%;
+}
+
+.stats {
+  width: 35%;
+  height: 100%;
+  text-align: left;;
+  font-family: 'Aref Ruqaa', serif;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5%;
+}
+
+.number{
+  font-size: 220%;
+  color:white;
+}
+
+hr{
+  color:white;
+  height: 1%;
+}
+.footer-box{
+  text-align: center;
+  background-color: #212530;
+  color: white;
+  height: 15%;
+  vertical-align: middle;
 }
